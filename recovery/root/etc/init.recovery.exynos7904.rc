@@ -1,0 +1,11 @@
+on init
+    write /proc/sys/kernel/hung_task_timeout_secs 0
+    write /sys/class/power_supply/battery/siop_level 0
+
+on fs
+    export ANDROID_ROOT /system_root
+
+on post-fs
+
+on boot
+

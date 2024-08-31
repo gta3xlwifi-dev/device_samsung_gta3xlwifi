@@ -1,6 +1,19 @@
-# Device Tree for the Galaxy Tab A 10.1 (gta3xlwifi)
+## Recovery Device Tree for the 2019 Samsung Galaxy Tab A [SM-T510]
 
-![graphic](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9MZ26MCfyE5k66dnDkFBh6W9Uax1IrHwbK4Wz8WjArRsDHp9b4K9B2CreON5xt6KwWrpTERxmLXIj0WY70QXml0mcXfxUrWL6CYcJiFuYln3m5S6h2_jkpDd5gU1oJ67pttXIjF-ZalsystKsTx8SVIlC1rms-aaHy5sSfVohHta63_WjPCGUUuT3/s1600/Android_Android14DPI_1024x512.png)
+## How-to compile it:
 
-This repository will contain the device tree necessary to build an initial AOSP image for the SM-T510 (gta3xlwifi).
 
+To initialize your local repository using the AOSP trees to build TWRP, use a command like this:
+
+```sh
+repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-11
+```
+Then to sync up:
+
+```sh
+repo sync
+```
+Then to build:
+
+```sh
+export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch twrp_gta3xlwifi-eng; mka recoveryimage
