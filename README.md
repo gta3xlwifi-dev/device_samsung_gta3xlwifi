@@ -1,19 +1,16 @@
-## Recovery Device Tree for the 2019 Samsung Galaxy Tab A [SM-T510]
+gta3xlwifixx-user 11 RP1A.200720.012 T510XXU5CWA1 release-keys
 
-## How-to compile it:
-
-
-To initialize your local repository using the AOSP trees to build TWRP, use a command like this:
-
-```sh
-repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-11
-```
-Then to sync up:
-
-```sh
-repo sync
-```
-Then to build:
-
-```sh
-export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch twrp_gta3xlwifi-eng; mka recoveryimage
+    manufacturer: samsung
+    platform: universal7904
+    codename: gta3xlwifi
+    flavor: gta3xlwifixx-user
+    release: 11
+    id: RP1A.200720.012
+    incremental: T510XXU5CWA1
+    tags: release-keys
+    fingerprint: samsung/gta3xlwifixx/gta3xlwifi:11/RP1A.200720.012/T510XXU5CWA1:user/release-keys
+    is_ab: false
+    brand: samsung
+    branch: gta3xlwifixx-user-11-RP1A.200720.012-T510XXU5CWA1-release-keys
+    repo: samsung_gta3xlwifi_frm_dump
+    firmware release: T510XXU5CWA1
