@@ -19,10 +19,11 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_NAME := lineage_gta3xlwifi
 PRODUCT_MODEL := SM-T510
 
-PRODUCT_GMS_CLIENTID_BASE := android-samsung
-TARGET_VENDOR := samsung
-TARGET_VENDOR_PRODUCT_NAME := gta3xlwifi
-PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="gta3xlwifixx-user 11 RP1A.200720.012 T510XXU5CWA1 release-keys"
-
-# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := samsung/gta3xlwifixx/gta3xlwifi:11/RP1A.200720.012/T510XXU5CWA1:user/release-keys
+# Use the latest approved GMS identifiers
+PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="gta3xlwifixx-user 11 RP1A.200720.012 T510XXU5CWA1 release-keys" \
+    PRODUCT_DEVICE=gta3xlwifi \
+    PRODUCT_NAME=gta3xlwifixx \
+    TARGET_BOOTLOADER_BOARD_NAME=a14xm \
+BUILD_FINGERPRINT := "samsung/gta3xlwifixx/gta3xlwifi:11/RP1A.200720.012/T510XXU5CWA1:user/release-keys"
