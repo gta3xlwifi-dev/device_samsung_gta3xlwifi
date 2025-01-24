@@ -4,3 +4,16 @@
 system/etc/av_performance.conf
 system/etc/bt_stack.conf
 system/etc/iop_bt.db
+
+# Firmware
+vendor/firmware/APBargeIn_AUDIO_SLSI.bin
+vendor/firmware/AP_AUDIO_SLSI.bin
+vendor/firmware/Tfa9896.cnt
+vendor/firmware/calliope_dram.bin
+vendor/firmware/calliope_sram.bin
+vendor/firmware/dax_param.bin
+vendor/firmware/fimc_is_lib.bin
+vendor/firmware/fimc_is_rta.bin
+vendor/firmware/mfc_fw.bin
+vendor/firmware/setfile_4ha.bin
+vendor/firmware/setfile_5e9.bin
