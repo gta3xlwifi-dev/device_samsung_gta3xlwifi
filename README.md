@@ -1,4 +1,5 @@
 Copyright (C) 2024-25 The LineageOS Project
+## Experimental Branch for 64bit Build
 # Device configuration for Samsung Galaxy Tab A 10.1 (SM-T510)
 
 The Galaxy Tab A 10.1 is a (then) mid-range tablet from Samsung released in April 2019.
