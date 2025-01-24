@@ -4,6 +4,11 @@
 #
 DEVICE_PATH := device/samsung/gta3xlwifi
 
+
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(COMMON_PATH)/bluetooth
+BOARD_HAVE_BLUETOOTH_SLSI := true
+
 # Platform
 TARGET_BOARD_PLATFORM := universal7904
 BOARD_VENDOR := Samsung

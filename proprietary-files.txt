@@ -1,0 +1,6 @@
+#
+
+# Bluetooth
+system/etc/av_performance.conf
+system/etc/bt_stack.conf
+system/etc/iop_bt.db
