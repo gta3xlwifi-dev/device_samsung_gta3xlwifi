@@ -1,0 +1,4 @@
+
+## SoC
+ro.hardware.chipname=exynos7904
+ro.arch=exynos7904
